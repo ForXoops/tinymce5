@@ -26,7 +26,8 @@ return array(
 	// This option prevents tinyeditor from deleting empty tags
 	'valid_elements' => '*[*]',
 	// Use of relative urls?
-	'relative_urls' => false
+	'relative_urls' => false,
+	'body_class' => 'tinymce5-body'
 	//'menubar' => 'file edit view'
 
 );

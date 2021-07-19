@@ -1,60 +1,18 @@
-    margin:                     0 auto;
 
-    #src_list, #over_list, #out_list {
-    width:                      280px;
+.center, .txtcenter {
+    text-align: center;
 }
-.mceActionPanel {
-    margin-top:                 7px;
+
+.xo-actions button img, .xo-actions a img, .xo-actions img {
+    padding: 0 2px;
+    border: none;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
 }
-.alignPreview {
-    border:                     1px solid #000;
-    width:                      140px;
-    height:                     140px;
-    overflow:                   hidden;
-    padding:                    5px;
-}
-.checkbox {
-    border:                     0;
-}
-.panel_wrapper div.current {
-    height:                     305px;
-}
-#prev {
-    margin:                     0;
-    border:                     1px solid #000;
-    width:                      99%;
-    height:                     150px;
-    overflow:                   auto;
-}
-#align, #classlist {
-    width:                      150px;
-}
-#width, #height {
-    vertical-align:             middle;
-    width:                      50px;
-    text-align:                 center;
-}
-#vspace, #hspace, #border {
-    vertical-align:             middle;
-    width:                      30px;
-    text-align:                 center;
-}
-#class_list {
-    width:                      180px;
-}
-input {
-    width:                      280px;
-}
-input[name=src], input[name=onmouseoversrc], input[name=onmouseoutsrc] {
-    width:                      250px;
-}
-#constrain, #onmousemovecheck {
-    width:                      auto;
-}
-#id, #dir, #lang, #usemap, #longdesc {
-    width:                      200px;
-}
-.xoopsimagebrowser {
-    vertical-align:             middle;
-    cursor:                     pointer;
+
+.card-imagemanager img {
+    height: 150px;
+    object-fit: cover;
+    transition: all .30s ease-in-out;
 }

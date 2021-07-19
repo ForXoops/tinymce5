@@ -21,13 +21,14 @@
 return array(
 	'theme' => 'silver',
 	'mode' => 'exact',
-	'plugins' => 'anchor,autolink,charmap,code,codesample,hr,image,imagetools,link,media,preview,searchreplace,table',
-	'toolbar' => 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent',
+	'plugins' => 'anchor,autolink,charmap,code,hr,image,imagetools,link,media,preview,searchreplace,table,xoopsemoticons,xoopscode,xoopsimagemanager',
+	'toolbar' => 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist  | forecolor backcolor removeformat | insertfile image media link | hr | xoopsemoticons xoopscode | code',
+	'image_title' => true,
+	'image_advtab' => true,
 	// This option prevents tinyeditor from deleting empty tags
 	'valid_elements' => '*[*]',
 	// Use of relative urls?
 	'relative_urls' => false,
-	'body_class' => 'tinymce5-body'
-	//'menubar' => 'file edit view'
-
+	'body_class' => 'tinymce5-body',
+	'menubar' => false
 );

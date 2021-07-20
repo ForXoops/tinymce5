@@ -21,10 +21,15 @@
 return array(
 	'theme' => 'silver',
 	'mode' => 'exact',
-	'plugins' => 'anchor,autolink,charmap,code,hr,image,imagetools,link,media,preview,searchreplace,table,xoopsemoticons,xoopscode,xoopsimagemanager',
-	'toolbar' => 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist  | forecolor backcolor removeformat | insertfile image media link | hr | xoopsemoticons xoopscode | code',
+	'plugins' => 'advlist,anchor,autolink,charmap,code,hr,image,imagetools,lists,link,media,preview,searchreplace,table,xoopsemoticons,xoopscode,xoopsimagemanager',
+	'toolbar' => 'undo redo | styleselect | bold italic | forecolor backcolor removeformat  | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table tabledelete | insertfile image media link | hr | xoopsemoticons xoopscode | code',
 	'image_title' => true,
-	'image_advtab' => true,
+	'table_use_colgroups' => true,
+	/*'image_class_list' => [
+		{title: 'None', value: ''},
+		{title: 'Width auto', value: 'col-12'}
+	],*/
+	//'image_advtab' => true, dot work !!
 	// This option prevents tinyeditor from deleting empty tags
 	'valid_elements' => '*[*]',
 	// Use of relative urls?
